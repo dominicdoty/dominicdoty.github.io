@@ -50,6 +50,10 @@ p {
 	text-indent:2em;
 }
 
+ul {
+	list-style-type:none;
+}
+
 .header {
 	background: -webkit-linear-gradient(#373737, #222222); /* For Safari */
 	background: -o-linear-gradient(#373737, #222222); /* For Opera 11.1 to 12.0 */
