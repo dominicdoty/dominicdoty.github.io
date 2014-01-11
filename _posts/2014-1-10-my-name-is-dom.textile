@@ -1,8 +1,7 @@
 ---
 layout: post
 title: First Post awesome!
+image:http://www.flickr.com/photos/114109398@N06/11883054523/
 ---
-
-p(meta). 10 January 2014 SLO
 
 This is where the text goes! Wahoo!
