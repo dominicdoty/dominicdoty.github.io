@@ -3,8 +3,6 @@ layout: post
 title: First Post awesome!
 ---
 
-h1. {{ page.title }}
-
 p(meta). 10 January 2014 SLO
 
 This is where the text goes! Wahoo!
