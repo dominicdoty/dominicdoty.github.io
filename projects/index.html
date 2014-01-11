@@ -3,4 +3,11 @@ layout: post
 title: Projects
 ---
 
-I've got some projects I'll put up soon, but my current project is coding this website!
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
