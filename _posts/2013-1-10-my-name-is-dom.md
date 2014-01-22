@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Debugging
 image:/images/0.png/
 ---
