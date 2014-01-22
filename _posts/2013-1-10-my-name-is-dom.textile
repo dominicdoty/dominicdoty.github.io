@@ -1,7 +1,7 @@
 ---
 layout: post
+title: Debugging
 image:/images/0.png/
 ---
 
-{{page.title}}
-This is where the text goes! Wahoo!
+This is where my stuff should be in the body with a title above it.
