@@ -1,7 +1,0 @@
----
-layout: post
-title: First Post awesome!
-image:/images/0.png/
----
-
-This is where the text goes! Wahoo!
