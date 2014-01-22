@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: First Post awesome!
 image:/images/0.png/
 ---
