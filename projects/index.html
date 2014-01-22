@@ -6,9 +6,9 @@ title: Projects
 <ul>
 	{% for post in paginator.posts %}
 	<li>
-		<a href="{{page.url}}"><img src="{{site.url}}{{page.image}}" alt="{{page.title}}"></a>
-		<a style="font-size:1.25em;" href="{{ page.url }}">{{ page.title }}</a>
-		<p>{{ page.excerpt }}</p>
+		<a href="{{post.url}}"><img src="{{site.url}}{{post.image}}" alt="{{post.title}}"></a>
+		<a style="font-size:1.25em;" href="{{ post.url }}">{{ post.title }}</a>
+		<p>{{ post.excerpt }}</p>
 	</li>
 	{% endfor %}
 </ul>
