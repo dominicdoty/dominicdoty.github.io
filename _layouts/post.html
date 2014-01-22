@@ -1,8 +1,39 @@
----
-layout: default
----
-
-<h2>{{ post.title }}</h2>
-<p>{{ post.date }}</p>
-<img src="{{site.url}}{{post.image}}">
-<p>{{ post.content }}</p>
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>{{page.title}}</title>
+		<meta name="description" content="Mechanics, electronics, and software: The personal projects of Dominic Doty">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/css/main.css">
+		<script src="/js/googleanalytics.js"></script>
+	</head>
+	<body>  
+		<div class="header">
+			<div class="headerinner">
+				<h1>Dominic Doty</h1>
+				<ul class="navbar">
+					<li><a href="http://www.dominicdoty.com/">Home</a></li>
+					<li><a href="http://www.dominicdoty.com/projects/">Projects</a></li>
+					<li><a href="http://www.dominicdoty.com/about/">About</a></li>
+					<li><a href="http://www.dominicdoty.com/resume/DominicDotyResume.pdf">Resume</a></li>
+					<li><a href="http://www.dominicdoty.com/about/">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<h2>{{ post.title }}</h2>
+			<p>{{ post.date }}</p>
+			<img src="{{site.url}}{{post.image}}">
+			<p>{{ post.content }}</p>
+		</div>
+		<div class="footer">
+			<div class="footerinner">
+				<p>DominicDoty.com and all work shown in it is licensed under a <br />
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+				Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>		
+			</div>
+		</div>
+	</body>
+</html>
