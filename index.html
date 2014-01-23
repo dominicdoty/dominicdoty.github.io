@@ -1,5 +1,28 @@
 ---
 ---
 {% include header.html %}
-Hey! I'm currently constructing my site using Jekyll and magic. Check back later for ensuing madness!
+<h2>{{page.title}}</h2>
+<ul>
+	{% for post in paginator.posts %}
+	<li>
+		<a href="{{post.url}}"><img src="{{site.url}}{{post.image}}"></a>
+		<a style="font-size:1.25em;" href="{{ post.url }}">{{ post.title }}</a>
+		<p>{{ post.excerpt }}</p>
+	</li>
+	{% endfor %}
+</ul>
+<br>
+<div style="text-align:center;">
+	{% if paginator.previous_page %}
+	<a href="{{ paginator.previous_page_path }}">Previous</a>
+	{% else %}
+	Previous
+	{% endif %}
+	{{ paginator.page }}/{{ paginator.total_pages }}
+	{% if paginator.next_page %}
+	<a href="{{ paginator.next_page_path }}">Next</a>
+	{% else %}
+	Next
+	{% endif %}
+</div>
 {% include footer.html %}
