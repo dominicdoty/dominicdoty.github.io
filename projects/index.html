@@ -1,7 +1,4 @@
----
-layout: default
-title: Projects
----
+{% include header.html %}
 <h2>{{page.title}}</h2>
 <ul>
 	{% for post in paginator.posts %}
@@ -26,3 +23,4 @@ title: Projects
 	Next
 	{% endif %}
 </div>
+{% include footer.html %}
