@@ -1,5 +1,5 @@
 ---
-title: Jen Thinks She's Awesome. She is.
+title: Second Test Post!
 image: /images/1.png
 layout: post
 ---
