@@ -40,8 +40,6 @@ body {
 
 h1 {
 	font-size:3em;
-	padding-top:.1em;
-	margin-bottom:2em;
 }
 
 h2 {
@@ -60,24 +58,21 @@ ul {
 .header {
 	background: #222222;
 	height:5em;
-	padding-top:.1px;
-	padding-bottom:1.5em;
 	min-width:350px;
 }
 
 .headerinner {
 	text-align:center;
 	width:732px;
-	margin:auto;
+	margin:0px auto;
 	height:inherit;
 	color:white;
 }
 
 .navbar {
    margin-top:.1em;
-   margin-left:-15px;
    max-width:700px;
-   padding:0;
+   padding:0px 0px;
    height:1.5em;
    list-style-type:none;
 }
