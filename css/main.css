@@ -41,7 +41,7 @@ body {
 h1 {
 	font-size:3em;
 	padding-top:.1em;
-	padding-bottom:2em;
+	margin-bottom:2em;
 }
 
 h2 {
