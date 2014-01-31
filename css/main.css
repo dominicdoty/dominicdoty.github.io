@@ -3,32 +3,32 @@
    ========================================================================== */
 
 html {
-    font-size: 1em;
-    line-height: 1.4;
+	font-size: 1em;
+	line-height: 1.4;
 	font-family:Garamond, serif;
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
 html {
-	background-color:#373737;
+	background-color:#222222;
 	width:100%;
 }   
 
@@ -58,6 +58,7 @@ ul {
 .header {
 	background: #222222;
 	height:5em;
+	margin-top:0px;
 	min-width:350px;
 }
 
@@ -70,20 +71,20 @@ ul {
 }
 
 .navbar {
-   margin-top:.1em;
-   max-width:700px;
-   padding:0px 0px;
-   height:1.5em;
-   list-style-type:none;
+	margin-top:.1em;
+	max-width:700px;
+	padding:0px 0px;
+	height:1.5em;
+	list-style-type:none;
 }
 
 .navbar a {
-  color:white;
-  text-decoration:none;
-  float:left;
-  display:block;
-  width:70px;
-  text-align:center;
+	color:white;
+	text-decoration:none;
+	float:left;
+	display:block;
+	width:70px;
+	text-align:center;
 }
 
 .main {
