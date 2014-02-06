@@ -40,6 +40,8 @@ body {
 
 h1 {
 	font-size:3em;
+	margin-top:.5em;
+	margin-bottom:1px;
 }
 
 h2 {
@@ -58,13 +60,14 @@ ul {
 .header {
 	background: #222222;
 	height:5em;
-	margin-top:0px;
+	margin-top:1px;
 	min-width:350px;
 }
 
 .header a {
 	color:white;
 	text-decoration:none;
+	text-align:center;
 }
 
 .navbar {
