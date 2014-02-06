@@ -40,7 +40,7 @@ body {
 
 h1 {
 	font-size:3em;
-	margin-top:.5em;
+	margin-top:.25em;
 	margin-bottom:1px;
 }
 
@@ -59,7 +59,7 @@ ul {
 
 .header {
 	background: #222222;
-	height:6em;
+	height:5.75em;
 	margin-top:1px;
 	min-width:350px;
 }
@@ -71,9 +71,8 @@ ul {
 }
 
 .navbar {
-	margin:1px;
+	margin-left:40%;
 	max-width:700px;
-	padding:1px;
 	height:1.5em;
 	list-style-type:none;
 }
