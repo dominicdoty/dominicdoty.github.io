@@ -119,19 +119,15 @@ img {
 
 .footer {
 	background: #222222;
-	padding-bottom:1em;
-}
-
-.footerinner {
 	text-align:center;
-	height:inherit;
 	color:white;
 	width:700px;
 	margin:auto;
 	padding-top:1em;
+	padding-bottom:1em;
 }
 
-.footerinner a {
+.footer a {
 	text-decoration:none;
 	color:white;
 }
