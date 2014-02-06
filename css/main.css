@@ -62,18 +62,15 @@ ul {
 	min-width:350px;
 }
 
-.headerinner {
-	text-align:center;
-	width:732px;
-	margin:0px auto;
-	height:inherit;
+.header a {
 	color:white;
+	text-decoration:none;
 }
 
 .navbar {
-	margin-top:.1em;
+	margin:1px;
 	max-width:700px;
-	padding:0px 0px;
+	padding:1px;
 	height:1.5em;
 	list-style-type:none;
 }
