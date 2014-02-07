@@ -3,3 +3,4 @@ pygments: true
 url: http://www.dominicdoty.com
 paginate: 10
 paginate_path: "/projects/page:num"
+excerpt_separator: [[more]]
