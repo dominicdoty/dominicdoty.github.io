@@ -7,7 +7,7 @@ title: Projects
 		<a href="{{post.url}}"><img src="{{site.url}}{{post.image}}"></a>
 		<a style="font-size:1.25em;" href="{{ post.url }}">{{ post.title }}</a>
 		<span class="date">{{ post.date | date_to_string }}</span>
-		<p>{{ post.excerpt }}</p>
+		{{ post.excerpt }}
 		<hr>
 	{% endfor %}
 <br>
