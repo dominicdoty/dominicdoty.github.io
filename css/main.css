@@ -74,8 +74,8 @@ ul {
 	width:700px;
 	height:1.5em;
 	margin-top:0px;
-	margin-bottom:0px;
-	padding-bottom:.25em;
+	margin-bottom:.25em;
+	padding-left:10%;
 	list-style-type:none;
 	text-align:center;
 }
