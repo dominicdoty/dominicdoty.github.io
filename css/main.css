@@ -4,8 +4,10 @@
 
 html {
 	font-size: 1em;
-	line-height: 1.4;
+	line-height: 1.4em;
 	font-family:Garamond, serif;
+	background-color:#222222;
+	width:100%;
 }
 
 ::-moz-selection {
@@ -26,11 +28,6 @@ hr {
 	margin: 1em 0;
 	padding: 0;
 }
-
-html {
-	background-color:#222222;
-	width:100%;
-}   
 
 body {
 	background-color:#f2f2f2;
@@ -110,9 +107,8 @@ img {
 }
 
 .date {
-	text-align:right;
-	padding:0em;
 	color:grey;
+	float:right;
 }
 
 
