@@ -2,7 +2,6 @@
 title: Projects
 ---
 {% include header.html %}
-<h2>{{page.title}}</h2>
 	{% for post in paginator.posts %}
 		<a href="{{post.url}}"><img src="{{site.url}}{{post.image}}"></a>
 		<a style="font-size:1.25em;" href="{{ post.url }}">{{ post.title }}</a>
