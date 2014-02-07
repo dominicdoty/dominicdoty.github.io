@@ -1,7 +1,7 @@
 ---
 title: N64 Bluetooth Controller
 layout: post
-image: 0.png
+image: n64/n64board.png
 ---
 
 ![Alt text](/path/to/img.jpg)
