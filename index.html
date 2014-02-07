@@ -3,15 +3,13 @@ title: Projects
 ---
 {% include header.html %}
 <h2>{{page.title}}</h2>
-<ul>
 	{% for post in paginator.posts %}
-	<li>
 		<a href="{{post.url}}"><img src="{{site.url}}{{post.image}}"></a>
 		<a style="font-size:1.25em;" href="{{ post.url }}">{{ post.title }}</a>
+		<span>{{ post.date }}</span>
 		<p>{{ post.excerpt }}</p>
-	</li>
+		<hr>
 	{% endfor %}
-</ul>
 <br>
 <div style="text-align:center;">
 	{% if paginator.previous_page %}

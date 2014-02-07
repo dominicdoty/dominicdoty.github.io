@@ -103,6 +103,11 @@ ul {
 	text-decoration:none;
 }
 
+.main span {
+	text-align:right;
+	padding:0em;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
