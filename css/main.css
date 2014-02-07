@@ -58,6 +58,12 @@ ul {
 	list-style-type:none;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
 .header {
 	background: #222222;
 	height:5.75em;
@@ -103,16 +109,12 @@ ul {
 	text-decoration:none;
 }
 
-.main span {
+.date {
 	text-align:right;
 	padding:0em;
+	color:grey;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-	width: auto\9; /* ie8 */
-}
 
 .list {
 	text-indent:12em;

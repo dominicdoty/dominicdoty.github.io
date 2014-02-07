@@ -6,7 +6,7 @@ title: Projects
 	{% for post in paginator.posts %}
 		<a href="{{post.url}}"><img src="{{site.url}}{{post.image}}"></a>
 		<a style="font-size:1.25em;" href="{{ post.url }}">{{ post.title }}</a>
-		<span>{{ post.date }}</span>
+		<span class="date">{{ post.date | date_to_string }}</span>
 		<p>{{ post.excerpt }}</p>
 		<hr>
 	{% endfor %}
