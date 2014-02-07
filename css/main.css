@@ -73,7 +73,7 @@ ul {
 .navbar {
 	width:700px;
 	height:1.5em;
-	margin-top:0px auto;
+	margin-top:auto 0px;
 	padding-bottom:.25em;
 	list-style-type:none;
 	text-align:center;
