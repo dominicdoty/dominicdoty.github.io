@@ -11,7 +11,7 @@ Through one design decision to the next, I eventually came to the conclusion tha
 ![Modified Laminator]({{ site.url }}/images/n64/laminator.jpg)
 The laminator is another story that deserves its own post, which it will recieve in due time. I modified it to run several hundred degrees hotter than it should, and it melts toner onto circuit boards very reliably. Allowing me to make stupid thin traces on my boards.
 ![Toner transfered boards]({{ site.url }}/images/n64/toner.jpg)
-Here's the Bluetooth breakout board with room for an led and some resistors, as well as the joystick board. Both still have toner on them, with the paper removed and cleaned off. Clorox wipes do wonders for cleaning the remaining paper off a toner transfer after a good water soak.
+Here's the Bluetooth breakout board with room for an led and some resistors, as well as the joystick board. Both still have toner on them, with the paper removed but not cleaned off. Clorox wipes do wonders for cleaning the remaining paper off a toner transfer after a good water soak.
 ![Etched boards]({{ site.url }}/images/n64/btjoy.jpg)
 Here are the same boards after etching. 
 ![Tinned boards]({{ site.url }}/images/n64/tinned.jpg)
