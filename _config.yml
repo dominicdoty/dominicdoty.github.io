@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: maruku
 pygments: true
 url: http://www.dominicdoty.com
 paginate: 5
