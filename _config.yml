@@ -1,5 +1,5 @@
 markdown: rdiscount
 pygments: true
 url: http://www.dominicdoty.com
-paginate: 10
+paginate: 5
 paginate_path: "/projects/page:num"
