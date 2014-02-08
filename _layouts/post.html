@@ -4,5 +4,5 @@
 <h2>{{ page.title }}</h2>
 <span class="date">{{ page.date | date_to_string }}</span>
 <img src="{{site.url}}{{page.image}}">
-<p>{{ page.content | markdownify }}</p>
+<p>{{ content | markdownify }}</p>
 {% include footer.html %}
