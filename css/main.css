@@ -63,6 +63,10 @@ p {
 	text-indent:2em;
 }
 
+.p a {
+	text-decoration:underline;
+}
+
 ul {
 	list-style-type:none;
 }
