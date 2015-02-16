@@ -8,9 +8,8 @@ html {
 	font-family:Garamond, serif;
 	background-color:#000000;
 	color:white;
-	margin: auto;
 	width:100%;
-	min-width:500px;
+	min-width:501px;
 }
 
 ::-moz-selection {
