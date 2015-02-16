@@ -9,7 +9,6 @@ html {
 	background-color:#000000;
 	color:white;
 	width:100%;
-	min-width:700px;
 }
 
 ::-moz-selection {
@@ -98,7 +97,8 @@ img {
 
 .main {
 	background-color:#000000;
-	width:700px;
+	min-width:405px;
+	max-width:700px;
 	float:center;
 	margin:1em auto;
 	padding: .5em 3em .5em 3em;
