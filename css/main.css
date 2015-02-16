@@ -6,7 +6,7 @@ html {
 	font-size: 1em;
 	line-height: 1.4em;
 	font-family:Garamond, serif;
-	background-color:#222222;
+	background-color:#000000;
 	width:100%;
 }
 
@@ -30,7 +30,7 @@ hr {
 }
 
 body {
-	background-color:#f2f2f2;
+	background-color:#000000;
 	width:inherit;
 	margin:0px;
 }
@@ -61,7 +61,7 @@ img {
 }
 
 .header {
-	background: #222222;
+	background: #000000;
 	margin-top:1px;
 	min-width:350px;
 }
@@ -93,23 +93,22 @@ img {
 
 main {
 	background-color:#000000;
-	box-shadow: 0px 0px 10px #373737;
 	width:100%;
 	max-width:700px;
+	float:center;
 	margin:1em auto;
 	padding: .5em 3em .5em 3em;
 }
 
 .main a {
-	color:darkblue;
+	color:white;
 	text-decoration:none;
 }
 
 .date {
-	color:grey;
+	color:white;
 	float:right;
 }
-
 
 .list {
 	text-indent:12em;
@@ -117,7 +116,7 @@ main {
 }
 
 .list a {
-	color:darkblue;
+	color:white;
 	text-decoration:none;
 }
 
