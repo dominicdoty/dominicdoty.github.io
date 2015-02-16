@@ -6,6 +6,7 @@ title: Dominic Doty
 		<a href="{{post.url}}"><img src="{{site.url}}{{post.image}}"></a>
 		<b><a style="font-size:1.25em;" href="{{ post.url }}">{{ post.title }}</a></b>
 		<span class="date">{{ post.date | date_to_string }}</span>
+		<br>
 		<p>{{ post.content | split: '<!-- more -->' | first }}</p>
 		<hr>
 	{% endfor %}
