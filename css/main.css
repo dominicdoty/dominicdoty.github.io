@@ -21,6 +21,11 @@ html {
 	text-shadow: none;
 }
 
+a {
+	color:white;
+	text-decoration:none;
+}
+
 hr {
 	display: block;
 	height: 2px;
@@ -49,7 +54,6 @@ h2 {
 
 p {
 	text-indent:2em;
-	color:white;
 }
 
 ul {
@@ -69,8 +73,6 @@ img {
 }
 
 .header a {
-	color:white;
-	text-decoration:none;
 	text-align:center;
 }
 
@@ -85,8 +87,6 @@ img {
 }
 
 .navbar a {
-	color:white;
-	text-decoration:none;
 	float:left;
 	display:block;
 	width:70px;
@@ -102,13 +102,7 @@ img {
 	padding: .5em 3em .5em 3em;
 }
 
-.main a {
-	color:white;
-	text-decoration:none;
-}
-
 .date {
-	color:white;
 	float:right;
 }
 
@@ -117,22 +111,15 @@ img {
 	list-style-type:none;
 }
 
-.list a {
-	color:white;
-	text-decoration:none;
-}
-
 .footer {
-	background: #222222;
+	background: #000000;
 	text-align:center;
-	color:white;
 	width:100%;
 	margin:auto;
 	padding-top:1em;
 	padding-bottom:1em;
 }
 
-.footer a {
-	text-decoration:none;
-	color:white;
+.footer p {
+	font-size:1em;
 }
