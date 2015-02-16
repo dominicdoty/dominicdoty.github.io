@@ -9,6 +9,7 @@ html {
 	background-color:#000000;
 	color:white;
 	width:100%;
+	min-width:350px;
 }
 
 ::-moz-selection {
@@ -69,7 +70,6 @@ img {
 .header {
 	background: #000000;
 	margin-top:1px;
-	min-width:350px;
 }
 
 .header a {
@@ -95,7 +95,6 @@ img {
 
 .main {
 	background-color:#000000;
-	width:100%;
 	max-width:700px;
 	float:center;
 	margin:1em auto;
