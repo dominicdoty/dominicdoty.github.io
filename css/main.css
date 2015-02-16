@@ -51,6 +51,8 @@ h1 {
 h2 {
 	text-align:center;
 	font-size:1.75em;
+	margin-top:0em;
+	margin-bottom:0em;
 }
 
 p {
@@ -76,11 +78,15 @@ img {
 	text-align:center;
 }
 
+.header hr {
+	margin:0;
+}
+
 .navbar {
 	width:700px;
-	height:1.5em;
+	height:1em;
 	margin:0em auto;
-	padding-bottom:.25em;
+	padding-bottom:0em;
 	padding-left:0em;
 	list-style-type:none;
 	text-align:center;
