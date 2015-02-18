@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-	color:#008AE6;
+	color:#E8BF19;
 }
 
 hr {
@@ -55,11 +55,16 @@ h1 {
 	margin-bottom:.35em;
 }
 
+.h1 a:hover {
+	color:white;
+}
+
 h2 {
 	text-align:center;
 	font-size:1.75em;
 	margin-top:.5em;
 	margin-bottom:0em;
+	text-decoration:none;
 }
 
 p {
