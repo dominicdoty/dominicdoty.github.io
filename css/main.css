@@ -25,6 +25,10 @@ a {
 	color:white;
 }
 
+a:hover {
+	color:#008AE6;
+}
+
 hr {
 	display: block;
 	height: 2px;
