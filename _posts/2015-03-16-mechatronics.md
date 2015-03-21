@@ -27,11 +27,11 @@ I knew laser cutting was the way to go on this from the start since it's fast an
 
 Here's some of said doodads. The motor mounts were the biggest 3d printed piece. The altitude tower, as I call it, was given an access door under the plan that all the electronics would be hidden inside it. The original design intent was for the motor to be inside the box too so it was all hidden, but this didn't happen due to some weirdness with the gear ratios, which we'll talk about next.
 
-![Simulink Model]({{ site.url }}/images/foamlandsecurity/closedloopblocks.jpg)
+![Simulink Model]({{ site.url }}/images/foamlandsecurity/closedloopblocks.JPG)
 
 I whipped up a Simulink model to select the best gear ratio for each axis. The model simulates the electric motor and the inertia of a rotary axis. The CG of each axis was aligned with the center of rotation so there was only inertia to deal with. This guarantees the most angular acceleration for your torque-money. The goal here was for the axis to just get up to speed over a 180 degree turn before it had to slow down to the set point. I tested a variety of ratios, and then someone threw a wrench in my fan blades.
 
-![Step Response]({{ site.url }}/images/foamlandsecurity/stepresponse.jpg)
+![Step Response]({{ site.url }}/images/foamlandsecurity/stepresponse.JPG)
 
 We got these meaty geared DC motors from Amazon. They were cheap, and already geared which was nice. Unfortunately, they were too torquey. We didn't really need another set of gears, or if we did, they maybe should have even been gearing down. At this point in the design though, such a drastic change in the gearing setup would require a major redesign. If you recall, we were on a two week schedule, and I really couldn't do that. 1:5 was the smallest ratio I could fit in with the rest of the design. This produced a solid turn, taking just over a second to make a 180 turn, but we could have gotten a little more out of these motors with better gearing.
 
