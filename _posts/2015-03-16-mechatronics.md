@@ -77,7 +77,7 @@ Here is the completed sensor assembly. It's beautiful. It has a crap load of wir
 
 ![Wire Nightmare]({{ site.url }}/images/foamlandsecurity/finalwires.jpg)
 
-Here it is all put together, the assault of wires from the sensor and h bridge, motors, and encoders. We used a Arduino Mega, hidden under there somewhere. But we didn't do any of this nonsense in Sketch. We used freeRTOS and C++ to program the gun because we have self respect.
+Here it is all put together, the assault of wires from the sensor and h bridge, motors, and encoders. We used a Arduino Mega, hidden under there somewhere. But we didn't do any of this nonsense in Sketch. We used freeRTOS and C++ to program the gun because we have self respect. The "Unofficially Sponsored by Monster" was a bit of a joke, since we cleaned out Albertsons of Monsters 3 times while working on this project. When we turned it in, we were both running on an hour or two of sleep in over 48 hours.
 
 ![Final]({{ site.url }}/images/foamlandsecurity/final.jpg)
 
