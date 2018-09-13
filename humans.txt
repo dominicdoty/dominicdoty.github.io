@@ -2,6 +2,7 @@
 # The humans responsible & technology colophon
 
     Dominic Doty
+    Maker of stuff
 
 # TECHNOLOGY COLOPHON
 
