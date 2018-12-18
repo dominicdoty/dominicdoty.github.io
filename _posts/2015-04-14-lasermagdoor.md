@@ -2,6 +2,7 @@
 title: Laser - Door Interlock
 layout: post
 image: /images/laser/installed.jpg
+tags: laser
 published: true
 ---
 

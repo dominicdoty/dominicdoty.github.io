@@ -2,6 +2,7 @@
 title: Laser - Update
 layout: post
 image: /images/laser/belts.jpg
+tags: laser
 published: true
 ---
 

@@ -2,6 +2,7 @@
 title: Machinist's Hammer
 layout: post
 image: /images/hammer/lasermock.jpg
+tags: random
 published: true
 ---
 

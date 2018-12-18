@@ -1,7 +1,8 @@
 ---
 title: Mini Kossel - Motor Overheating
 layout: post
-image: /images/3dprinter/printerv2.jpg
+image: /images/3dprinter/cover.JPG
+tags: 3dprinter
 published: true
 ---
 

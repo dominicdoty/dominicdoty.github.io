@@ -2,6 +2,7 @@
 title: Laser - Motion Control!
 layout: post
 image: /images/laser/wiring.jpg
+tags: laser
 published: true
 ---
 

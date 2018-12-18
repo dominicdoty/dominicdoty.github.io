@@ -1,7 +1,8 @@
 ---
 title: Chainless Challenge
 layout: post
-image: /images/chainless/chainless12race.jpg
+image: /images/chainless/cover.JPG
+tags: chainless
 published: true
 ---
 
@@ -13,7 +14,7 @@ The point of the Chainless Challenge is to design and build a hydraulic powered 
 
 The races are supposed to test different aspects of the bike and prevent you from designing a bike that's too specialized in one area. The bikes are allowed to have an accumulator to store fluid pressure, and regenerative braking is a stretch goal. Regenerative braking converts the kinetic energy of the bikes movement into potential in the form of pressure in the accumulator. Most teams operated under the assumption that charging the accumulator and regenerative braking had to be separate systems. But when you think about it, regenerative braking accomplishes the same purpose, charging the accumulator.
 
-![Hydraulic circuit]({{ site.url }}/images/chainless/hydcircuit.png)
+![Hydraulic circuit]({{ site.url }}/images/chainless/hydcircuit.jpg)
 
 This it the hydraulic circuit we designed. It was actually pretty genius. It only uses two valves, a couple check valves, and the fact that a hydraulic pump is also a motor. During regular operation, both valves are open. This allows the pump driven by the pedals to draw fluid in, and push it to the motor on the rear wheel. Two of the check valves prevent fluid from bypassing the motor or returning to the reservoir. Close both valves however, and the motor becomes a pump. It draws fluid from the reservoir through the check, and forces it through another check into the accumulator. When both valves are reopened, the pressurized fluid circulates back through the motor and into the reservoir.
 

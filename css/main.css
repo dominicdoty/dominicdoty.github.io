@@ -3,12 +3,11 @@
    ========================================================================== */
 
 html {
-	font-size: 1em;
-	line-height: 1.4em;
+	font-size: 1.4em;
+	line-height: 1.6em;
 	font-family:Garamond, serif;
 	background-color:#000000;
 	color:white;
-	min-width:501px;
 }
 
 ::-moz-selection {
@@ -33,9 +32,10 @@ hr {
 	display: block;
 	height: 2px;
 	border: 0;
-	border-top: 1px solid #ccc;
+	border-top: 3px solid #ccc;
 	margin:0;
-	margin-top:.5em;
+	margin-top:.2em;
+	margin-bottom: .2em;
 	padding: 0;
 }
 
@@ -43,10 +43,24 @@ body {
 	background-color:#000000;
 	padding: .5em 3em .5em 3em;
 	position:relative;
-	min-width:405px;
 	max-width:700px;
 	width:inherit;
 	margin:0px auto;
+}
+
+@media (max-width:550px){
+	body {
+		width: auto;
+		margin: 0;
+		padding: 5px;
+	}
+	html {
+		font-size: 1em;
+		line-height: 1.2em;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
 }
 
 h1 {
@@ -62,8 +76,15 @@ h2 {
 	margin-bottom:0em;
 }
 
+h3 {
+	margin-top: .7em;
+	margin-bottom: 0em;
+}
+
 p {
 	text-indent:2em;
+	margin-top:.1em;
+	margin-bottom: .4em;
 }
 
 ul {
@@ -76,7 +97,38 @@ img {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	background-color: white;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: transparent;
+}
+
+.image-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.image-box {
+	max-width: 320px;
+	padding: 5px;
+	margin: 5px;
+	background-color: #070707;
+}
+
+.image-box img {
+	padding: 0;
+	margin: 0;
+}
+
+.image-box p {
+	font-size: .7em;
+	line-height: 1.2em;
+}
+
+.image-box-date {
+	font-size: .7em;
 }
 
 .header {
@@ -90,8 +142,7 @@ img {
 }
 
 .navbar {
-	max-width:700px;
-	height:1em;
+	height:1.6em;
 	margin:0em auto;
 	padding-bottom:0em;
 	padding-left:0em;
@@ -108,9 +159,7 @@ img {
 
 .main {
 	background-color:#000000;
-	min-width:405px;
-	max-width:700px;
-	margin:1em auto;
+	margin: 1em auto;
 }
 
 .date {
@@ -122,19 +171,24 @@ img {
 	list-style-type:none;
 }
 
+.pageindex {
+	text-align:center;
+	font-size:1em;
+	margin-top:.5em;
+	margin-bottom:.5em;
+}
+
 .footer {
+	font-size: .75em;
+	line-height: 1.4em;
 	background-color: #000000;
 	text-align:center;
 	width:100%;
 	margin:auto;
-	padding-top:1em;
-	padding-bottom:1em;
+	margin-top:.5em;
+	margin-bottom:.5em;
 }
 
 .footer a {
 	text-decoration:none;
-}
-
-.footer p {
-	font-size:1em;
 }

@@ -2,6 +2,7 @@
 title: Rear Projection TV Teardown
 layout: post
 image: /images/tvteardown/tearing.jpg
+tags: random
 published: true
 ---
 

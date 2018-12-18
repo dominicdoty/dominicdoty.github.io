@@ -2,6 +2,7 @@
 title: Mini Kossel - Build & Calibrate
 layout: post
 image: /images/3dprinter/printerv1.jpg
+tags: 3dprinter
 published: true
 ---
 

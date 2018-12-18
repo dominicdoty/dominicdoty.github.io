@@ -2,6 +2,7 @@
 title: Mini Kossel - Cross Bracing
 layout: post
 image: /images/3dprinter/printerv3.jpg
+tags: 3dprinter
 published: true
 ---
 

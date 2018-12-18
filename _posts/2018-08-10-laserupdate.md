@@ -1,7 +1,8 @@
 ---
 title: Laser Cutter Update
 layout: post
-image: /images/laserupdate/controlpanel.JPG
+image: /images/laser/controlpanel.JPG
+tags: laser
 published: true
 ---
 
@@ -11,8 +12,8 @@ The laser has basically sat in my tiny apartment for the last three years in Los
 
 Change #1: The old laser tube let out the magic gases- either due to aging, damage, or lots of transport, the exact cause is unclear. Rather than shelling out again for a 100w tube (now that I am a starving student again) I decided to downgrade to a 65w tube. This tube is only 55mm instead of the 80(?) of the original, which prompted the design of new mounts. I was never really happy with the original mounts as they only had slotted screws to allow for adjustment, which isn't very helpful for fine adjustments. The new version I designed uses two screws on each mount to allow for independent, fine adjustment of the horizontal and vertical location. The horizontal axis uses a sliding dovetail with clamp screws to lock it down once adjusted. This direction also only allows the screw to push the sliding block one way, so I'll have to manually pull it against the screw if it needs to come back, no big deal. Vertical uses gravity to rest on the adjustment screw. Note that the pictures show short adjustment screws which will need to be longer in real life.
 
-![Tube]({{ site.url }}/images/laserupdate/side.JPG)
-![Tube]({{ site.url }}/images/laserupdate/iso.JPG)
+![Tube]({{ site.url }}/images/laser/side.JPG)
+![Tube]({{ site.url }}/images/laser/iso.JPG)
 
 Change #2: The Smoothieboard is being replaced for two reasons. The first is that it doesn't have good support for two motors driving one gantry. The second is because it got smoked by the high voltage laser PSU.
 The Smoothie only supports driving dual motors by slaving the two stepper drivers together (connecting step/dir/en pins). This is serviceable, but doesn't allow the gantry to be automatically trammed, since one of the motors is effectively dumb and can't have a separate end stop switch.
@@ -23,4 +24,4 @@ Upon firing, I just got a strange crackling noise and some shimmering light whic
 
 Change #3: I decided to spruce up the control panel quite a bit from my original design to make it nicer to use and safer. I added a fuse block with individual fuses for each mains component (ventilation fan, air assist pump, laser PSU, 24v PSU, water cooling pump). I've also added a nice E-Stop that cuts mains power to the whole system in addition to the motion controller E-Stop and door interlock switches I originally had. The laser PSU, water pump, air pump, and vent fan are all run power through a relay board controlled by the motion controller. I also included manual override control switches for those components. Basically these switches connect the relay control pin to one of three options: 5v, Gnd, or floating. The relay control pin is also connected to the motion controller via a 10k resistor. If you leave the manual switch in the floating position, this gives the controller board authority to turn things off and on willy nilly. If you turn it to either of the override positions, it will force the relay to remain in whatever state you want. This is useful for test running the machine with the laser disabled, or turning components off or on when the controller isn't powered up. I also added some cute little lights that turn on when each component is powered to let you know what the machine is doing.
 
-![Panel]({{ site.url }}/images/laserupdate/controlpanelcrop.JPG)
+![Panel]({{ site.url }}/images/laser/controlpanelcrop.JPG)

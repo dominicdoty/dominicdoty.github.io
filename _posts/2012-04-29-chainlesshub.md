@@ -2,6 +2,7 @@
 title: Chainless Challenge - Keyed Bike Hub
 layout: post
 image: /images/chainless/hubcomp.jpg
+tags: chainless
 published: true
 ---
 
