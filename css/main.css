@@ -104,11 +104,10 @@ img {
 
 .image-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(100px, 320px));
+	grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
 }
 
 .image-box {
-	max-width: 320px;
 	padding: 5px;
 	margin: 5px;
 	background-color: #070707;
