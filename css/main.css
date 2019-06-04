@@ -103,11 +103,8 @@ img {
 }
 
 .image-grid {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: flex-start;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(100px, 320px));
 }
 
 .image-box {
