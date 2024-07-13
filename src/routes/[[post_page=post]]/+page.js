@@ -1,7 +1,7 @@
 import { writings } from '$lib/post_finder.js';
 
 const posts_per_page = 5;
-let num_pages = Math.ceil(writings.length / posts_per_page);
+const num_pages = Math.ceil(writings.length / posts_per_page);
 
 export async function load({ params }) {
 	// if we're on the home page, params will be {}

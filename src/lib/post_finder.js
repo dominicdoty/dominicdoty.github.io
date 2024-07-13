@@ -3,14 +3,19 @@ const glob_import = import.meta.glob('$src/posts/*.md', {
 	eager: true
 });
 
-// Flatten writings to 2D array and sort by date
-const all_writings = Object.entries(glob_import).sort((a, b) => {
-	return a[1].metadata.date < b[1].metadata.date;
-});
+// Flatten writings to 2D array
+let writings = Object.entries(glob_import);
 
 // Remove any writings that aren't published
-const writings = all_writings.filter((writing) => {
+writings = writings.filter((writing) => {
 	return writing[1].metadata.published;
+});
+
+// sort by date
+writings.sort((a, b) => {
+	const a_date = new Date(a[1].metadata.date);
+	const b_date = new Date(b[1].metadata.date);
+	return b_date - a_date;
 });
 
 // Extract list of tags from writings and sort alphabetically
