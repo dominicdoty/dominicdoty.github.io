@@ -1,5 +1,6 @@
 # DominicDoty.com
+My personal website.
 
-# TODO:
-- [ ] Fix LiteYoutube Embed (http://localhost:5173/2015/04/17/laserrunning)
+Written in Svelte because I did another project in it and liked it.
 
+Super overkill for a SSG personal site but oh well!
