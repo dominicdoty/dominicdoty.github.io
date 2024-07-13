@@ -1,7 +1,7 @@
 ---
 title: Lunar Lander
 layout: post
-image: /images/lunarlander/lunarlander.jpg
+image: /images/lunarlander/lunarlander.png
 date: 2023-07-31
 tags: [webdev]
 published: true
