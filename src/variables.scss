@@ -1,0 +1,13 @@
+/* force a smaller breakpoint for desktop */
+$desktop: 800px;
+
+/* theme colors */
+$dom-primary: #3343ad;
+
+$shadow-color: hsl(
+	var(--bulma-scheme-h),
+	var(--bulma-scheme-s),
+	calc(var(--bulma-background-l) + 2 * var(--bulma-hover-background-l-delta))
+);
+
+$dom-card-shadow: 0 0.3em 1.2em -0.125em $shadow-color;
