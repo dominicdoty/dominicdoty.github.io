@@ -14,7 +14,7 @@
 	export let layout;
 	export let published; // this is already resolved by post_finder
 	export let date;
-	export let selected_tag = 'computerstuff';
+	export let selected_tag = '';
 
 	import Image from '$lib/Image.svelte';
 	import { setContext } from 'svelte';
