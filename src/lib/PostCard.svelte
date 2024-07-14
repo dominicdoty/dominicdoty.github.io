@@ -14,6 +14,7 @@
 	export let layout;
 	export let published; // this is already resolved by post_finder
 	export let date;
+	export let uses_codeblock = false; // include CSS for codeblock highlight
 	export let selected_tag = '';
 
 	import Image from '$lib/Image.svelte';
@@ -37,6 +38,13 @@
 
 	const post_href = post_to_href(post_to_obj(path, date_obj));
 </script>
+
+<!-- If we start using this a lot, this should move to a <link> file -->
+{#if uses_codeblock}
+	<style>
+		@import '$lib/prism-atom-dark.css';
+	</style>
+{/if}
 
 {#if !card}
 	<title>{title}</title>
