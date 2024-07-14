@@ -11,7 +11,7 @@ Someone across the street from my apartment left out this perfectly awesome rear
 
 <!--more-->
 
-The original prize when grabbing this TV was the screen. Rear projection TV screens are actually a massive Fresnel lens. I had a few small Fresnels from my [automated Nerf turret project](https://www.dominicdoty.com/2015/03/16/mechatronics.html) and quickly discovered that the 3"x2" lenses were capable of burning leaves and marking wood. One of my friends informed me of the massive Fresnel lenses inside projection TVs just as this one appeared across from the apartment. If a tiny one can burn leaves, this one will probably let you start a forest fire with a flash light.
+The original prize when grabbing this TV was the screen. Rear projection TV screens are actually a massive Fresnel lens. I had a few small Fresnels from my [automated Nerf turret project](/2015/03/16/mechatronics) and quickly discovered that the 3"x2" lenses were capable of burning leaves and marking wood. One of my friends informed me of the massive Fresnel lenses inside projection TVs just as this one appeared across from the apartment. If a tiny one can burn leaves, this one will probably let you start a forest fire with a flash light.
 
 ![TV](/images/tvteardown/fresnel.jpg)
 

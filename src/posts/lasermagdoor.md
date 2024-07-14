@@ -7,7 +7,7 @@ tags: [laser]
 published: true
 ---
 
-Magnetic door interlock switch! this stops the laser from burning your eyeballs out when you open the door. It's also a required piece of equipment for a class 4 laser. This is an update on [my laser](https://www.dominicdoty.com/2014/06/28/laser.html).
+Magnetic door interlock switch! this stops the laser from burning your eyeballs out when you open the door. It's also a required piece of equipment for a class 4 laser. This is an update on [my laser](/2014/06/28/laser).
 
 <!--more-->
 
