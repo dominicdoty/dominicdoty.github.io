@@ -76,7 +76,7 @@
 	</div>
 
 	<!-- Actual writing contents -->
-	<div class="card-content">
+	<div class="card-content content">
 		<slot></slot>
 	</div>
 </div>
