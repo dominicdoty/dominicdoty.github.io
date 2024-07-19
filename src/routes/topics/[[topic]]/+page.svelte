@@ -12,7 +12,7 @@
 
 <div class="columns">
 	<!-- Desktop Side Tag Bar -->
-	<div class="column is-narrow m-3 is-hidden-tablet-only is-hidden-mobile">
+	<div class="column is-2 m-3 is-hidden-tablet-only is-hidden-mobile">
 		<aside class="menu">
 			<p class="menu-label">Tags</p>
 			<ul class="menu-list">
@@ -41,7 +41,11 @@
 	</div>
 
 	<!-- Posts -->
-	<div class="column">
+	<div
+		class="column"
+		class:is-5-tablet={writings.length == 1}
+		class:is-3-desktop={writings.length == 1}
+	>
 		<div class="section p-3">
 			<div class="grid is-col-min-12">
 				{#each writings as [path, module]}
