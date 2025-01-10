@@ -30,7 +30,7 @@ const config = {
 
 	kit: {
 		// note that adapter-cloudflare is available for cloudflare pages if static rendering isn't enough
-		adapter: adapter(),
+		adapter: adapter({ fallback: '404.html' }),
 
 		alias: {
 			$src: './src'
