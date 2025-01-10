@@ -29,7 +29,11 @@
 	const _layout = layout;
 	const _published = published;
 
-	const date_obj = new Date(date.substring(0, date.length - 3));
+	if (date[date.length - 1] == 'Z') {
+		date = date.substring(0, date.length - 3);
+	}
+
+	const date_obj = new Date(date);
 	const date_fmtted = date_obj.toLocaleDateString('en-us', {
 		year: 'numeric',
 		day: 'numeric',
