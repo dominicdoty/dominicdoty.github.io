@@ -1,5 +1,5 @@
 import { mdsvex } from 'mdsvex';
-import adapter from '@sveltejs/adapter-cloudflare';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import remarkExcerpt from 'mdsvex-excerpt';
 // svelte.config.js
@@ -29,7 +29,9 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter(),
+		// note that adapter-cloudflare is available for cloudflare pages if static rendering isn't enough
+		adapter: adapter({ fallback: '404.html' }),
+
 		alias: {
 			$src: './src'
 		}
